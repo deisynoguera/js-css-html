@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    height: 10em;
+    /* flex-flow: column wrap;  */
+    flex-direction: row; 
+    flex-wrap: wrap;
+    background-color: #8e44ad;
+    padding: 1em;
+}
+.caja{
+    background: #e67e22; 
+    padding: 1em;
+    /* flex-grow: 1; */
+}
