@@ -7,6 +7,7 @@ class Stage {
     this.color = color;
     // crear canvas
     this.canvas = document.createElement("canvas");
+    this.ctx = this.canvas.getContext("2d");
     this.canvas.width = this.width;
     this.canvas.height = this.height;
     this.canvas.style.background = this.color;
